@@ -1,8 +1,8 @@
-package aug.manas.springdemo.data;
+package aug.manas.splitter.data;
 
 import java.util.List;
 
-import aug.manas.springdemo.model.Group;
+import aug.manas.splitter.model.Group;
 
 public interface GroupDAO {
 	public void addGroup(Group group);

@@ -1,9 +1,9 @@
-package aug.manas.springdemo.config;
+package aug.manas.splitter.config;
 import org.springframework.core.annotation.Order;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 @Order(2)
-public class SpringdemoWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class SplitterWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 @Override
   protected String[] getServletMappings() {
     return new String[] { "/" };

@@ -1,4 +1,4 @@
-package aug.manas.springdemo.web;
+package aug.manas.splitter.web;
 
 import static org.springframework.web.bind.annotation.RequestMethod.*;
 

@@ -1,4 +1,4 @@
-package aug.manas.springdemo.config;
+package aug.manas.splitter.config;
 
 import org.springframework.context.annotation.Configuration;
 

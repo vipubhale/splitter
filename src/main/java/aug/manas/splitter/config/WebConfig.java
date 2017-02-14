@@ -1,4 +1,4 @@
-package aug.manas.springdemo.config;
+package aug.manas.splitter.config;
 
 import org.springframework.context.annotation.Bean;
 
@@ -15,7 +15,7 @@ import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan({ "aug.manas.springdemo.web", "aug.manas.springdemo.data" })
+@ComponentScan({ "aug.manas.splitter.web", "aug.manas.splitter.data" })
 public class WebConfig extends WebMvcConfigurerAdapter {
 	// @Bean
 	// public ViewResolver viewResolver() {

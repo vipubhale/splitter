@@ -1,4 +1,4 @@
-package aug.manas.springdemo.model;
+package aug.manas.splitter.model;
 
 import java.util.ArrayList;
 import java.util.Date;

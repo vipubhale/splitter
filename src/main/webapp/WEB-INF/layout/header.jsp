@@ -13,14 +13,14 @@
 		<nav class="navbar navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="/Springdemo">Splitter</a>
+					<a class="navbar-brand" href="/splitter">Splitter</a>
 				</div>
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="/Springdemo">Home</a></li>
+					<li class="active"><a href="/splitter">Home</a></li>
 					<li><a href="#">Help</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="/Springdemo/signup"><span
+					<li><a href="/splitter/signup"><span
 							class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 					<security:authorize access="isAuthenticated()">
 						<security:authentication property="principal.username"
@@ -33,11 +33,11 @@
 									class="glyphicon glyphicon-log-out"></span> Logout</a></li>
 						</c:when>
 						<c:when test="${loginId == null}">
-							<li><a href="/Springdemo/login"><span
+							<li><a href="/splitter/login"><span
 									class="glyphicon glyphicon-log-in"></span> Login</a></li>
 						</c:when>
 						<c:otherwise>
-							<li><a href="/Springdemo/login"><span
+							<li><a href="/splitter/login"><span
 									class="glyphicon glyphicon-log-in"></span> Login</a></li>
 						</c:otherwise>
 					</c:choose>

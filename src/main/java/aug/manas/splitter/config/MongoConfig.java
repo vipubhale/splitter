@@ -1,4 +1,4 @@
-package aug.manas.springdemo.config;
+package aug.manas.splitter.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
@@ -7,7 +7,7 @@ import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 
 @Configuration
-@EnableMongoRepositories(basePackages= {"aug.manas.springdemo.data"})
+@EnableMongoRepositories(basePackages= {"aug.manas.splitter.data"})
 public class MongoConfig extends AbstractMongoConfiguration {
 	@Override
 

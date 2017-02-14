@@ -1,11 +1,11 @@
-package aug.manas.springdemo.data;
+package aug.manas.splitter.data;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import aug.manas.springdemo.model.Group;
+import aug.manas.splitter.model.Group;
 
 public class GroupDAOImpl  implements GroupDAO {
 	
