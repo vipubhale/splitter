@@ -58,4 +58,4 @@ local.properties
 .recommenders/
 
 # End of https://www.gitignore.io/api/eclipse
-/target/
+/target/**
