@@ -18,10 +18,9 @@ public class LoginController {
 	@RequestMapping(value = "/login", method = GET)
 	public ModelAndView login(
 			@RequestParam(value = "error", required = false) String error) {
-		logger.debug("Entering in the method -> login ");
-		System.out.println("Entering the login method");
+		logger.debug("Entering in the method login ");
 		ModelAndView model = new ModelAndView();
-		System.out.println("Error param is ::"+ error);
+		logger.error("Error param is ::"+ error);
 		if (error != null) {
 			model.addObject("error", "Invalid username and password!");
 		}
@@ -33,7 +32,7 @@ public class LoginController {
 
 	@RequestMapping(value = "/logout", method = GET)
 	public ModelAndView logout() {
-		System.out.println("Entering in the method -> logout ");
+		logger.debug("Entering in the method logout ");
 		SecurityContextHolder.getContext().setAuthentication(null);
 		ModelAndView model = new ModelAndView();
 		model.addObject("msg", "You've been logged out successfully.");

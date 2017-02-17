@@ -5,8 +5,8 @@
 <tiles-definitions>
 	<definition name="base" template="/WEB-INF/layout/page.jsp">
 		<put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
-		<!-- <put-attribute name="menu" value="/WEB-INF/views/menu.jsp"></put-attribute> -->
-		<put-attribute name="body" value=""></put-attribute>
+<!-- 		<put-attribute name="menu" value="/WEB-INF/layout/menu.jsp"/>
+ -->		<put-attribute name="body" value=""/>
 		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
 	</definition>
 	<definition name="home" extends="base">

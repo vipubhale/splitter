@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login Page</title>
+<title>Login</title>
 </head>
 <body onload='document.loginForm.username.focus();'>
 	<div id="login-box" align="center">

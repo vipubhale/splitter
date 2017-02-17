@@ -2,6 +2,7 @@ package aug.manas.splitter.config;
 
 import org.springframework.context.annotation.Configuration;
 
+
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -34,12 +35,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 			auth
 			  .ldapAuthentication()
 			    .userDnPatterns("uid={0},ou=people")
-				.groupSearchBase("ou=groups").contextSource().ldif("classpath:users.ldif")
+				.groupSearchBase("ou=groups").contextSource().root("dc=manas,dc=aug").ldif("classpath:users.ldif")
 			  		.and()
 				.passwordCompare()
-				.passwordAttribute("userPassword");	
-
-
-
+				.passwordAttribute("userPassword")
+				;	
 	}
+	
+	
 }

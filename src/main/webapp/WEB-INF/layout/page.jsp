@@ -32,6 +32,11 @@
 			</td>
 		</tr>
 		<tr>
+<%-- 			<td>
+				<div id="menu">
+					<t:insertAttribute name="menu" />
+				</div>
+			</td> --%>
 			<td>
 				<div id="content">
 					<t:insertAttribute name="body" />
