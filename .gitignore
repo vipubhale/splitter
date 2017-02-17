@@ -6,8 +6,7 @@
 .metadata
 bin/
 tmp/
-target
-target/*
+target/
 *.tmp
 *.bak
 *.swp
@@ -59,4 +58,3 @@ local.properties
 .recommenders/
 
 # End of https://www.gitignore.io/api/eclipse
-/target/**
